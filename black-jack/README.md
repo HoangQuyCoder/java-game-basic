@@ -83,14 +83,14 @@ graph TD
 1.  **Di chuyển vào thư mục dự án**:
 
     ```bash
-    cd BlackJack
+    cd black-jack
     ```
 
 2.  **Biên dịch toàn bộ mã nguồn vào thư mục `bin`**:
 
     ```bash
     javac -d bin src/*.java
-    cp -r resources/* bin/
+    cp -r resources/* bin
     ```
 
 3.  **Chạy trò chơi**:
