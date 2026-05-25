@@ -44,7 +44,7 @@ Yêu cầu đã cài đặt sẵn **JDK 8** trở lên trên máy tính của b�
 
 1.  Mở terminal và di chuyển đến thư mục của trò chơi này:
     ```bash
-    cd SnakeGame
+    cd snake
     ```
 2.  Biên dịch tất cả các tệp `.java` từ thư mục `src/` vào thư mục đích `bin/`:
     ```bash
@@ -54,10 +54,3 @@ Yêu cầu đã cài đặt sẵn **JDK 8** trở lên trên máy tính của b�
     ```bash
     java -cp bin App
     ```
-
----
-
-## 🎨 Điểm Nổi Bật Sau Tái Cấu Trúc
-*   **Fix Lỗi Logic Triệt Để**: Việc sửa lỗi off-by-one biên màn hình giúp rắn dừng chơi chuẩn mực và không bao giờ xuất hiện trạng thái "biến mất nửa thân" ngoài màn hình.
-*   **Thêm Trải Nghiệm Tiện Lợi (UX)**: Hỗ trợ phím Space hồi sinh rắn giúp tăng đáng kể tính trải nghiệm so với code gốc (phải tắt app đi mở lại từ đầu).
-*   **Mã Nguồn Sạch Sẽ**: Tránh hiện tượng rò rỉ hoặc liên kết cứng giữa đồ họa và tọa độ lưới vật lý, dễ dàng thay đổi kích thước bảng chơi hoặc thiết lập các chế độ chơi mới.
