@@ -1,0 +1,7 @@
+# Compilation targets
+bin/
+*.class
+
+# IDE configurations
+.vscode/
+.DS_Store
