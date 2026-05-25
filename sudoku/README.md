@@ -56,10 +56,3 @@ Yêu cầu đã cài đặt sẵn **JDK 8** trở lên trên máy tính của b�
     ```bash
     java -cp bin App
     ```
-
----
-
-## 🎨 Điểm Nổi Bật Sau Tái Cấu Trúc
-
-- **Giao Diện Phẳng Premium**: Thay thế các nút nổi mặc định thô sơ bằng thiết kế phẳng tối giản, nâng tầm trải nghiệm thị giác của trò chơi.
-- **Độ Phản Hồi Trực Quan Cao**: Sự tương phản màu sắc rõ rệt giữa ô số mặc định (màu xám sáng) và ô số do người chơi điền đúng (chữ xanh dương) giúp người chơi dễ dàng theo dõi tiến trình chơi game.
