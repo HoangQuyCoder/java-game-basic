@@ -55,10 +55,3 @@ Yêu cầu đã cài đặt sẵn **JDK 8** trở lên trên máy tính của b�
     ```bash
     java -cp bin App
     ```
-
----
-
-## 🎨 Điểm Nổi Bật Sau Tái Cấu Trúc
-
-- **Phân Tách Trách Nhiệm Rõ Ràng**: Không có dòng mã giao diện Swing nào xuất hiện trong các lớp tính toán logic (Block, Model).
-- **Dễ Dàng Bảo Trì & Phát Triển**: Có thể dễ dàng thiết lập thêm các màn chơi mới, các loại đạn mới hoặc thay đổi cơ chế va chạm mà không sợ làm ảnh hưởng đến mã nguồn hiển thị.
