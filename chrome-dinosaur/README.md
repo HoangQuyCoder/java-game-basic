@@ -55,10 +55,3 @@ Yêu cầu đã cài đặt sẵn **JDK 8** trở lên trên máy tính của b�
     ```bash
     java -cp bin App
     ```
-
----
-
-## 🎨 Điểm Nổi Bật Sau Tái Cấu Trúc
-
-- **Tách biệt tuyệt đối**: Logic vật lý và dữ liệu trò chơi không bị trộn lẫn với mã nguồn vẽ giao diện Swing. Khủng long có thể chuyển động ở góc độ logic mà không cần nạp bất kỳ hình ảnh nào.
-- **Khả năng mở rộng tốt**: Dễ dàng tích hợp thêm chướng ngại vật mới (như Chim bay `bird.gif`) hay hệ thống lưu giữ điểm số kỷ lục (High Score) bằng cách cập nhật thêm dữ liệu trong Model mà không cần viết lại giao diện hoặc cơ chế lắng nghe bàn phím.
