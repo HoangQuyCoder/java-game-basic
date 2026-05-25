@@ -51,10 +51,3 @@ Yêu cầu đã cài đặt sẵn **JDK 8** trở lên trên máy tính của b�
     ```bash
     java -cp bin App
     ```
-
----
-
-## 🎨 Điểm Nổi Bật Sau Tái Cấu Trúc
-
-- **Tính Toán An Toàn & Chuẩn Xác**: Việc chuẩn hóa việc so sánh chuỗi bằng `.equals()` giúp loại bỏ hoàn toàn các hành vi không lường trước từ việc so sánh tham chiếu chuỗi.
-- **Giao Diện Apple Cao Cấp**: Kế thừa chuẩn màu sắc phong cách tối giản cao cấp giúp ứng dụng mang lại cảm giác cực kỳ premium.
